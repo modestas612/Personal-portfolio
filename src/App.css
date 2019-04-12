@@ -1,0 +1,213 @@
+body *::selection{
+    background-color: gray;
+}
+
+.layout-bg{
+    background-image: url(./img/background1.jpg);
+    background-size: cover;
+}
+
+.mdl-layout__drawer-button{
+    color: white !important;
+}
+
+.mdl-tabs__tab.is-active:after{
+    height: 3px !important;
+    background: gray !important;
+}
+
+/* Components */
+.page-body {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.page-grid {
+    text-align: justify;
+    justify-content: center;
+    width: 70%;
+    min-height: 200px;
+    height: auto;
+    padding: 20px;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.6);
+}
+.header h2  {
+    font-size: 42px;
+    font-family: sans-serif;
+}
+
+.header hr  {
+    border-top: 5px dotted black !important;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* landing page css */
+
+.comp-body{
+    width: 100%;
+    margin: auto;
+}
+
+.landing-grid {
+    color: white;
+    text-align: center;
+}
+
+.landing-grid h1{
+    font-size: 60px;
+}
+
+.landing-grid h4{
+    font-size: 25px;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+button{
+    border-radius: 10px;
+}
+
+button:hover{
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+}
+
+button .about-me{
+    padding: 0 10px 0;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+  /* About me page css */
+
+.profile-pic{
+    width: 100%;
+}
+
+.content{
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.content p{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.social-links {
+    text-align: left;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+.social-links i {
+    color: grey;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.btn-contact{
+    padding: 0;
+    color: white;
+}
+
+    .btn-contact:hover{
+        text-decoration: none;
+        color: white;
+    }
+
+.btn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 22px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+  
+    .btn:hover {
+        background-color: grey;
+        color: white;
+        border-radius: 8px;
+    }
+
+    .btn:active{
+        transform: translateY(2px);
+    }
+
+  /* Contact page css */
+
+.contact-grid {
+    text-align: justify;
+    justify-content: center;
+    width: 50%;
+    min-height: 200px;
+    height: auto;
+    margin-top: 50px !important;
+    padding: 20px;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.6);
+}
+
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+.contact-list{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.contact-card-img{
+    width: 20%;
+    margin: 0 40%;
+    padding: 15px 0;
+}
+
+@media ( max-width: 1024px ) {
+    .contact-grid{
+        margin-top: 50px !important;
+        width: 75%;
+        margin-bottom: 30px !important;
+    }    
+}
+
+@media ( min-width: 1024px ){
+    .mdl-layout__drawer-button {
+        display: none !important;
+    }
+}
+
+  

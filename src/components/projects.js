@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Button } from 'react-mdl';
-import {CardColumns, Card} from 'react-bootstrap';
+import { Tabs, Tab, Grid, Cell } from 'react-mdl';
+import {CardColumns} from 'react-bootstrap';
 import Cards from './card';
 
 import ComingSoonPage from '../img/ComingSoonPage.jpg';
@@ -53,14 +53,13 @@ export default class projects extends Component {
     } else if (this.state.activeTab === 1) {
       return (
         <CardColumns>
-          <Card>
-              <Card.Img variant="top" src={gallery}/>
-              <Card.Title className="pt-1 pl-2 pr-2"><h4>Photo gallery</h4></Card.Title>
-              <Card.Text className="pl-2 pr-2">Photo gallery is a simple Spring Boot application. Created using Maven and MySQL database.</Card.Text>
-              <Card.Footer>
-                  <Button target="_blank" href="https://github.com/modestas612/Photo-gallery" colored>GitHub</Button>
-              </Card.Footer>
-          </Card>          
+          <Cards 
+            background={gallery}
+            title="Photo gallery"
+            description="Photo gallery is a simple Spring Boot application. Created using Maven and MySQL database."
+            github="https://github.com/modestas612/Photo-gallery"
+            website="https://mphoto.herokuapp.com/"
+          />         
         </CardColumns>
       )
     } 

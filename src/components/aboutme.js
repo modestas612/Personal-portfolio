@@ -28,7 +28,7 @@ export default class aboutme extends Component {
           <div className="footer">
             <div className="social-links">
               <button className="btn"><Link className="btn-contact" to="/contact">Contact me</Link></button>
-              <a target="_blank" rel="noopener noreferrer" className="btn" href={pdf}>download cv</a>
+              <a target="_blank" rel="noopener noreferrer" className="btn" href={pdf}>cv</a>
             </div>
             <div className="social-links">
               <a href="https://www.linkedin.com/in/modestas-%C5%A1%C4%97%C5%BEa-082b93144/" rel="noopener noreferrer" target="_blank">

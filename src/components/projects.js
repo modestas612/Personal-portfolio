@@ -7,6 +7,7 @@ import ComingSoonPage from '../img/ComingSoonPage.jpg';
 import MineSweeper from '../img/MineSweeper.jpg';
 import Portfolio from '../img/Portfolio.jpg';
 import gallery from '../img/gallery.jpg';
+import Company from '../img/Company.jpg';
 
 export default class projects extends Component {
   constructor(props) {
@@ -39,6 +40,13 @@ export default class projects extends Component {
             description=""
             github="https://github.com/modestas612/minesweeper"
             website="https://modestas612.github.io/minesweeper/"
+          />
+          <Cards 
+            background={Company}
+            title="The Company template"
+            description=""
+            github="https://github.com/modestas612/The-Company"
+            website="https://modestas612.github.io/The-Company/"
           />
         </CardColumns>
       )

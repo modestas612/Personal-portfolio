@@ -25,10 +25,11 @@ export default class resume extends Component {
             diploma="Professional qualification diploma"
             schoolDescription=
             {`Learned to:
-            •	Develop small web applications using Java Spring boot, Thymeleaf;
-            •	Troubleshoot various software issues using debugging process;
-            •	Develop Database for the application;
-            •	Design and develop screens with HTML5, CSS3 and Bootstrap, JS, React js;`}
+            Using the latest technologies and software (JavaScript, HTML, CSS, Java and Spring boot), designed and developed several small user-friendly websites and applications;
+            Designed and developed screens with HTML5, CSS3 and Bootstrap, JS, JQuery;
+            Experienced in responsive design for and web development projects;
+            Good Understanding of design principles, user interfaces and Web standards;
+            Developed Database for the application;`}
           />
 
           <Education
@@ -39,16 +40,34 @@ export default class resume extends Component {
             schoolName="Kaunas Technical College"
             diploma="Professional bachelor degree of road engineering."
             schoolDescription=
-            {`Learned to:
-            •	Prepare designs of road construction and reconstruction;
-            •	Organise and technically supervise the works of bridge or road construction, reconstruction or repair;
-            •	Perform estimate calculations and geodetic measurements;`}
+            {`Activities and societies:
+            Led and worked in groups as a group monitor for 3 years consistently throughout collage. Excellent problem-solving skills and strong attention to details gained in a wide variety of environments.
+
+            Learned to:
+            Prepared road, road structures and bridge designs;
+            Perform estimate calculations and geodetic measurements;
+            Evaluate construction products, plan, organise and technically supervise the works of road construction, reconstruction or repair.
+            Basics of Structural Calculation;`}
           />
         </div>
       )
     } else if (this.state.activeTab === 1) {
       return (
         <div>
+          <Experience
+            startMonth="Feb, "
+            startYear={2019}
+            endMonth="Present"
+            jobName="Web Developer"
+            company="Self-employed"
+            jobDescription=
+            {`Programming: Entry level experience in programing with HTML, CSS, JavaScript, Java; familiar with Spring boot and React JS; 
+            Software Tools and Utilities: Experienced in using Eclipse, IntelliJ IDEA, GIT, GitHub, CMD; 
+            Database Technologies: Entry level experience implementing and managing MySQL database and using MySQL workbench 
+            Created my own portfolio with React JS;
+            GIT/Stash as a repository for the application project folders.
+            `}
+          />
           <Experience
             startMonth="Aug, "
             startYear={2017}
@@ -57,10 +76,7 @@ export default class resume extends Component {
             jobName="Technician"
             company="UAB Kelprojektas"
             jobDescription=
-            {`I have experience in project development with SCRUM methodology and responsibility for self-organizing. Learned to:
-            •	Prepare design drawings using AutoCAD or similar type software;
-            •	Analyze survey reports, maps, drawings, blueprints, topographical or geologic data.
-            •	Calculations of outlay;
+            {`Experienced in project development with SCRUM methodology. Participated in weekly team meetings with managers; provided drafts and reports on the progress of the projects; gained responsibility for self-organizing; 
             `}
           />
         </div>

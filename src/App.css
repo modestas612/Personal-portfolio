@@ -66,6 +66,10 @@ body *::selection{
     font-size: 60px;
 }
 
+.landing-grid h2{
+    font-size: 50px;
+}
+
 .landing-grid h4{
     font-size: 25px;
 }
@@ -99,6 +103,7 @@ button .about-me{
   /* About me page css */
 
 .profile-pic{
+    margin-top: 50px;
     width: 100%;
 }
 

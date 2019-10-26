@@ -18,9 +18,9 @@ export default class aboutme extends Component {
             <hr/>
           </div>
           <div className="content">
-            <p>I have recently finished Java developer studies at Baltic Talents academy.</p>
+            <p>As a developer with one years of experience writing code for applications and websites, I have a strong attention to detail as I know that even the simplest error can lead to lost production.</p>
             <p>I am highly-motivated, self-driven, hard-working, fast learner. I eager to be a part of the team, learn new technologies, become a valuable employee of the company and bring it success.</p>
-            <p>Well-organized with an ability to prioritize tasks, develop and grow in the company. Experienced in communicating with the team and clients. Attentive and accurate to details. </p>
+            <p>Well-organized with an ability to prioritize tasks, develop and grow in the company. Experienced in communicating with the team and clients. Attentive and accurate to details.</p>
           </div>
           <div className="footer">
             <div className="social-links">

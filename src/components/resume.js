@@ -55,9 +55,22 @@ export default class resume extends Component {
       return (
         <div>
           <Experience
-            startMonth="Feb, "
+            startMonth="Jul, "
             startYear={2019}
             endMonth="Present"
+            jobName="Junior Java Developer"
+            company="Edrana Baltic"
+            jobDescription=
+            {`Development of new functionality of Profit-Web business management system using Java and other technologies.
+            Technologies and tools: Java, Maven, SonarQube, Gitlab, JavaScript, AJAX, Spring, Eclipse, Tomcat.
+            Database: Oracle, MS SQL Server, Firebird.
+            `}
+          />
+          <Experience
+            startMonth="Feb, "
+            startYear={2019}
+            endMonth="Jul, "
+            endYear={2019}
             jobName="Web Developer"
             company="Self-employed"
             jobDescription=
@@ -85,31 +98,45 @@ export default class resume extends Component {
       return (
         <div>
           <Skills
+            skill="Web Design"
+            progress={60}
+          />
+          <Skills
             skill="HTML/CSS/JS"
             progress={80}
           />
           <Skills
             skill="React js"
-            progress={20}
+            progress={30}
+          />
+          <Skills
+            skill="Object-Oriented Programming (OOP)"
+            progress={50}
           />
           <Skills
             skill="Java"
-            progress={60}
+            progress={70}
           />
           <Skills
-            skill="Spring boot"
-            progress={35}
+            skill="Spring"
+            progress={25}
           />
           <Skills
             skill="MySQL"
             progress={60}
           />
-          <Grid>
+          <Grid style={{position: 'relative'}}>
             <Cell col={2}>
               <div style={{display: 'flex', textAlign: 'left'}}>Software Tools and Utilities:</div>
             </Cell>
             <Cell col={10}>
-              <div style={{margin: 'auto', width: '90%'}}>Eclipse, IntelliJ IDEA, GitHub, Visual studio Code, Git CMD, Postman, MySQL workbench.</div>
+              <div style={{ margin: 'auto', 
+                            width: '80%', 
+                            position: 'absolute', 
+                            top: '50%', 
+                            transform: 'translateY(-50%)'}}>
+                            Git, Github, Eclipse, Jquery, Intellij IDEA, Maven, Bootstrap, Hibernate, AJAX, Tomcat, Oracle Database, Paint.NET, Gradle, Agile Environment, Yarn, Sonarqube, Gitlab, Firebird, FlameRobin.
+              </div>
             </Cell>
           </Grid>
         </div>

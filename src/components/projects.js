@@ -56,7 +56,7 @@ export default class projects extends Component {
           <Cards 
             background={gallery}
             title="Photo gallery"
-            description="Photo gallery is a simple Spring Boot application. Created using Maven and MySQL database."
+            description="Photo gallery is a simple Spring Boot application. Created using Maven and MySQL database. You have to wait at least 40 seconds for the gallery to load, because the website is hosted on a free server."
             github="https://github.com/modestas612/Photo-gallery"
             website="https://mphoto.herokuapp.com/"
           />         
